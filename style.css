@@ -4,7 +4,9 @@ body{
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-/* header section Start */
+/*--------------------
+ header section Start 
+ ---------------------*/
 .container{
     display:flex;
     background-color: #2D25A0;
@@ -39,4 +41,49 @@ body{
 }
 .header-thambnail img{
     width: 100%;
+}
+/* header section End */
+
+/* -----------------------
+player section Start Here 
+--------------------------*/
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.players{
+    width: 1050px;
+    margin-top: 100px;
+}
+
+.player{
+    width: 320px;
+    height: 425px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 20px -2px rgb(48 47 46);
+    border-radius: 10px;
+}
+.player-thambnail img {
+    width: 300px;
+    padding-top: 10px;
+    padding-left: 10px; 
+    
+}
+.player-info{
+    padding-left: 10px ;
+}
+.player-info p{
+
+    font-size: 13px;
+}
+.player-info h2{
+    font-size: 20px;
+}
+.player-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 20px;
+    row-gap: 40px;
 }
