@@ -4,3 +4,39 @@ body{
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+/* header section Start */
+.container{
+    display:flex;
+    background-color: #2D25A0;
+
+}
+.header-title{
+    width: 373px;
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+.btn{
+    text-decoration: none;
+    background-color:#E02C6D ;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 7px 20px;
+    border-radius: 10px;
+}
+.fa-arrow-right{
+    margin-left: 10px;
+    
+}
+.header-thambnail{
+    width: 463px;
+    margin-top: 45px;
+    margin-left: 302px;
+    padding-bottom: 50px;
+}
+.header-thambnail img{
+    width: 100%;
+}
