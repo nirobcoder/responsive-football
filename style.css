@@ -55,7 +55,7 @@ main{
 }
 .players{
     width: 1050px;
-    margin-top: 100px;
+    margin-top: 70px;
 }
 
 .player{
@@ -72,11 +72,14 @@ main{
     
 }
 .player-info{
-    padding-left: 10px ;
+    padding: 0px 10px;
 }
 .player-info p{
 
-    font-size: 13px;
+    font-size: 14px;
+    color: #6C6C6C;
+    padding-bottom: 10px;
+
 }
 .player-info h2{
     font-size: 20px;
