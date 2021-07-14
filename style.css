@@ -36,7 +36,7 @@ body{
 }
 .btn:hover{
     padding: 10px 20px;
-    background-color:#351722 ;
+    background-color: #48132661;
     transition: 0.5s;
     animation: step-start;
 
@@ -128,7 +128,14 @@ Trophy Style Start
 .trophy-container{
     display:grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 50px;
+    column-gap: 30px;
+}
+.trophies:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.trophy-thambnail img{
+    width: 350px;
 }
 .trophy-info{
     text-align: center;
