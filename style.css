@@ -131,7 +131,7 @@ Trophy Style Start
     column-gap: 30px;
 }
 .trophies:hover{
-    transform: scale(1.1);
+    transform: rotate(20deg);
     transition: 1s;
 }
 .trophy-thambnail img{
