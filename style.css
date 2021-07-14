@@ -201,3 +201,96 @@ Our Key Player Style Start Here
      transform: scale(1.5);
      transition: 1s;
  }
+ /*-------------------------
+  Media Query For Phones 
+  --------------------------*/
+  @media screen and (max-width: 480px) {
+    .container{
+        flex-direction: column;
+        width: 100%;
+    }
+    .header-title{
+        width: 373px;
+        color: white;
+        font-size: 30px;
+        font-weight: 900;
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+    .header-thambnail{
+        width: 350px;
+        margin-top: 90px;
+        margin-left: 30px;
+        padding-bottom: 50px;
+    }
+    .player-container, .trophy-container, .players-container{
+        grid-template-columns: repeat(1, 1fr); 
+        row-gap: 40px; 
+    }
+    .player-info h2{
+        text-align: center;
+    }
+    .player{
+        width: 100%;
+    }
+    .player-thambnail img{
+        width: 97%;
+        height: 280px;
+        align-self: center;
+    }
+    .trophies{
+        width: 100%;
+    }
+    .trophy-thambnail img{
+        width: 100%;
+    }
+  }
+
+  /*----------------------
+   Media Query For Tablet  
+   -----------------------*/
+
+   @media only screen and (min-width:481px) and (max-width:992px) {
+    .container{
+        flex-direction: column;
+        width: 100%;
+    }
+    .header-title{
+        width: 373px;
+        color: white;
+        font-size: 30px;
+        font-weight: 900;
+        margin-top: 0px;
+        margin-left: 50px;
+        
+    }
+    .header-thambnail{
+        width: 350px;
+        margin-top: 90px;
+        margin-left: 400px;
+        padding-bottom: 50px;
+    }
+    .player-container, .trophy-container, .players-container{
+        grid-template-columns: repeat(2, 1fr); 
+        column-gap: 40px;
+        row-gap: 40px; 
+        
+    }
+    .player-info h2{
+        text-align: center;
+    }
+    .player{
+        width: 100%;
+    }
+    .player-thambnail img{
+        width: 97%;
+        height: 280px;
+        align-self: center;
+    }
+    .trophies{
+        width: 100%;
+    }
+    .trophy-thambnail img{
+        width: 100%;
+    }
+  }
