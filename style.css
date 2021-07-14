@@ -143,3 +143,27 @@ Trophy Style Start
 .trophy-info span{
     color: firebrick;
 }
+/* Trophy Style End Here */
+
+/* ------------------------------
+Our Key Player Style Start Here 
+----------------------------------*/
+.top-players{
+    margin-top: 60px;
+}
+.players-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 30px;
+}
+.top-thambnail img{
+    width: 250px;
+    height: 200px; 
+}
+.top-info h3, p{
+    text-align: center;
+}
+.top-player:hover{
+    transform: scaleY(1.2);
+    transition: 1s;
+}
