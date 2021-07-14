@@ -5,12 +5,17 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 /*--------------------
- header section Start 
+ header Style Start 
  ---------------------*/
 .container{
     display:flex;
     background-color: #2D25A0;
 
+}
+.container:hover .header-thambnail img{
+    transform: scale(1.5);
+    transition: 3s;
+    animation: ease-out;
 }
 .header-title{
     width: 373px;
@@ -29,6 +34,13 @@ body{
     padding: 7px 20px;
     border-radius: 10px;
 }
+.btn:hover{
+    padding: 10px 20px;
+    background-color:#351722 ;
+    transition: 0.5s;
+    animation: step-start;
+
+}
 .fa-arrow-right{
     margin-left: 10px;
     
@@ -45,7 +57,7 @@ body{
 /* header section End */
 
 /* -----------------------
-player section Start Here 
+player Style Start Here 
 --------------------------*/
 main{
     display: flex;
@@ -64,6 +76,11 @@ main{
     box-sizing: border-box;
     box-shadow: 5px 5px 20px -2px rgb(48 47 46);
     border-radius: 10px;
+}
+.player:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    overflow: hidden;
 }
 .player-thambnail img {
     width: 300px;
@@ -89,4 +106,33 @@ main{
     grid-template-columns: repeat(3,1fr);
     column-gap: 20px;
     row-gap: 40px;
+}
+/* player Style End Here */
+
+/* -----------------
+Trophy Style Start 
+--------------------*/
+.section-title{
+    margin-top: 60px;
+    margin-left: 30px;
+}
+.section-title h1{
+    font-size: 30px;
+    color: firebrick;
+    font-weight: 900;
+    text-align: center;
+}
+.trophy-section{
+    margin-top: 60px;
+}
+.trophy-container{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 50px;
+}
+.trophy-info{
+    text-align: center;
+}
+.trophy-info span{
+    color: firebrick;
 }
